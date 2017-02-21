@@ -1,0 +1,128 @@
+.sidebar {
+  background: rgba(236,239,241,0.56);
+  box-shadow: 3px 0 6px rgba(0,0,0,0.24);
+  padding-bottom: 72px;
+  width: 240px;
+  bottom: 0;
+  top:50px;
+  overflow: auto;
+  position: fixed;
+  left: 0;
+}
+
+.nav-items a {
+  color: white !important;
+}
+
+.sidebar-navs {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  left: 0;
+}
+
+.details {
+  position: absolute;
+  left: 240px;
+  top: 50px;
+  bottom: 0;
+  right: 0;
+}
+
+.details-header {
+  box-sizing: border-box;
+  box-shadow: none;
+  padding: 48px 48px 32px 27px;
+  height: 100px;
+  background-color: #1976D2;
+  background: -webkit-linear-gradient(305deg,#A9A9A9,#42A5F5);
+  background: linear-gradient(145deg,#A9A9A9,#42A5F5);
+  color: #fff;
+}
+
+.details-title {
+  display: inline-block;
+  font-size: 28px;
+  font-weight: 400;
+  float: left;
+  line-height: 20px;
+  margin: 0 8px 0 0;
+}
+
+.details-banner {
+  background: rgba(236,239,241,0.24);
+  border-bottom: 1px solid #ECEFF1;
+  box-sizing: border-box;
+  font-size: 18px;
+  font-weight: 300;
+  padding: 12px 28px;
+  min-height: 50px;
+}
+
+.content {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 150px;
+  bottom: 0;
+  overflow: scroll;
+  background: #fff;
+}
+
+.pad-box {
+  padding: 20px;
+  color: #546E7A;
+}
+
+.glyph {
+  margin-left: 15px;
+}
+
+.highlight {
+  color: red;
+}
+
+.pull-topbar-right {
+  margin-left: 100px !important;
+}
+
+.search-input input {
+  width: 20%;
+  font-size: 18px;
+  border: none;
+  line-height: 22px;
+  padding: 5px 10px 5px 25px;
+  height: 32px;
+  position: relative;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-shadow: 3px 0 6px rgba(0,0,0,0.24);
+  transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+}
+
+.search-icon {
+  display: block;
+  position: absolute;
+  width: 15px;
+  z-index: 3;
+  height: 15px;
+  font-size: 20px;
+  top: 8px;
+  left: 6px;
+  line-height: 32px;
+}
+
+.search-group {
+  width: 100%;
+  -webkit-padding-start: 25px;
+}
+
+.search-area {
+  width: 21.5%;
+  max-height: 300px;
+  overflow: auto;
+}
+
+.search-item {
+  background-color: ;
+}
